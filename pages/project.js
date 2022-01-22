@@ -1,12 +1,13 @@
 import React from "react";
 import Layout from "../components/Layout";
-import Project from "../components/Project"
+import Project from "../components/Project";
+
 const project = () => {
-  return(
+  return (
     <Layout>
       <Project></Project>
-  </Layout>
-  )
-}
+    </Layout>
+  );
+};
 
 export default project;

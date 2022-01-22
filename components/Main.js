@@ -51,7 +51,7 @@ const Main = () => {
         </Row>
         <Row style={{marginTop:"12px"}}>
           <Col span={8} push={3}>
-            <Link href="/intro" target="_blank">
+            <Link href="/intro" target="_blank" passHref>
               <a className={styles.btn}>
                 <UserOutlined style={{ fontSize: "22px" }} />
                 Intro
@@ -59,7 +59,7 @@ const Main = () => {
             </Link>
           </Col>
           <Col span={8} push={6}>
-            <Link href="/project" target="_blank">
+            <Link href="/project" target="_blank" passHref>
               <a className={styles.btn}>
                 <CodeSandboxOutlined style={{ fontSize: "22px" }} />
                 Project
