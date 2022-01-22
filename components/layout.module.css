@@ -1,0 +1,61 @@
+.container {
+    width: 100%;
+    height: 100%;
+    padding: 0 40px;
+}
+
+.background_img {
+    background-image: url("/images/bg-img.jpg");
+    height: 230px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+.avatar {
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    background-image: url(/images/avatar.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.avatar_border {
+    height: 150px;
+    width: 150px;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgb(130 124 220) 0%, rgba(203, 29, 91, 1) 49%, rgba(117, 15, 55, 1) 68%, rgba(97, 49, 90, 1) 76%, rgba(97, 49, 90, 1) 84%, rgba(0, 212, 255, 1) 91%);
+    position: absolute;
+    border-radius: 50%;
+    bottom: -66px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 58px;
+}
+
+.name h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.name p {
+    font-size: 18px;
+}
+
+.menu {
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+}

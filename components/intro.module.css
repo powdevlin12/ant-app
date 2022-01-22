@@ -1,0 +1,42 @@
+.intro {
+    background-color: #e7e6eec7;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 13px;
+    height: 420px;
+    width: 580px;
+    position: relative;
+    top: 100px;
+}
+
+.intro_nav {
+    padding: 20px;
+    font-size: 20px;
+    background-color: #a091bf;
+    color: white;
+    font-weight: 600;
+}
+
+.intro_nav p {
+    margin: 0;
+}
+
+.intro_overview {
+    padding: 20px;
+}
+
+.cover_main {
+    position: relative;
+    top: 150px;
+}
+
+@media screen and (max-width:576px) {
+    .cover_main {
+        top: 60px;
+    }
+    .intro {
+        width: 100%;
+        top: 0;
+        margin-top: 90px;
+        margin-bottom: 200px;
+    }
+}

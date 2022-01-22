@@ -1,0 +1,87 @@
+.intro_nav {
+    padding: 20px;
+    font-size: 20px;
+    background-color: #a091bf;
+    color: white;
+    font-weight: 600;
+}
+
+.project {
+    background-color: #e7e6eec7;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 13px;
+    height: 420px;
+    width: 580px;
+    position: relative;
+    top: 100px;
+}
+
+.project_item {
+    transition: 0.3s;
+}
+
+.project_item:hover {
+    transform: translateX(4px);
+    cursor: pointer;
+}
+
+.popup {
+    width: 800px;
+    height: 600px;
+    background-color: #d6c8de;
+    position: fixed;
+    z-index: 3;
+    transform: translateX(-50%) translateY(-50%);
+    top: 50%;
+    left: 50%;
+}
+
+.popup_hide {
+    display: none;
+}
+
+.project_modal {
+    width: 100vw;
+    height: 100vh;
+    background-color: #56636bb4;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.popup>h1 {
+    text-align: center;
+}
+
+.popup>p {
+    padding-left: 12px;
+}
+
+.popup>img {
+    max-width: 100%;
+}
+
+.cover_main {
+    position: relative;
+    top: 150px;
+}
+
+@media screen and (max-width:576px) {
+    .cover_main {
+        top: 0;
+        padding-top: 90px;
+    }
+    .project {
+        top: 0;
+        width: 94%;
+        margin: 60px auto;
+    }
+    .popup {
+        width: 94%;
+        height: 300px;
+    }
+    .popup>img {
+        display: none;
+    }
+}
